@@ -1,0 +1,24 @@
+# Mad Libs Generator 
+
+# Signing in 
+
+# Get user inputs
+name = input("Enter a name: ")
+place = input("Enter a place: ")
+adjective = input("Enter an adjective: ")
+verb = input("Enter a verb: ")
+food = input("Enter a type of food: ")
+
+# Story template
+story = f"""
+One day, {name} went to {place}. It was a very {adjective} place.
+While exploring, {name} decided to {verb}. 
+After a long day, {name} enjoyed a delicious meal of {food}. 
+It was the best day ever!
+"""
+
+# Print the funny story
+print("\nHere is your Mad Libs story:\n")
+print(story)
+
+# Signing off 
